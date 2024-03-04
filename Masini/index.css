@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background:gray;
+}
+nav{
+    background: rgb(38, 57, 96);
+    width: 100%;
+    overflow: auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    display: inline;
+}
+nav a{
+    width: 120px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    background: rgb(38, 57, 96);
+    font-size: 17px;
+    color:white;
+    padding: 20px 10px;
+    font-family: Arial;
+}
+nav a:hover{
+
+    background:skyblue;
+    color: black;
+}
+.heading{
+	position: absolute;
+	height:auto;
+	width:100%;
+	top:50%;
+	transform: translateY(-50%);
+	text-align: center;
+	text-shadow:0px 0.5px 5px rgba(0, 0, 0, 0.2);
+}
+ .heading .head{
+	position: relative;
+	font-family: 'RacingSansOne',sans-serif;
+	font-size:48px;
+	font-weight: 600; 
+	color:#fff;
+}
+ .heading .head span{
+	color:#303436;
+}
+.heading  .sub{
+	position: relative;
+	font-family: 'cinzel',sans-serif;
+	font-size:22px;
+	font-weight: 300; 
+	color:#fff;
+	margin:-2% 0 2% 0;
+}
+.heading .btns{
+	height:auto;
+	width:100%;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+ .heading .btns a{
+	color:#fff;
+	text-align: center;
+	text-decoration: none;
+	font-family:'cinzel',sans-serif;
+	font-size:15px;
+	font-weight:300;
+	display:block;
+	border:1px solid rgba(255, 255, 255, 0.5);
+	height:auto;
+	width:150px;
+	padding:10px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin-left:1%;
+	border-radius: 2px;
+	transition: 0.5s ease-in-out;
+}
+ .heading .btns a:hover{
+	background:#676e71;
+	border:1px solid #017fb5;
+}
+.heading .btns .btn1{
+	background:#282a2b;
+	border:1px solid #017fb5;
+}
+ .heading .btns .btn1:hover{
+	background:#646b6e;
+	border:1px solid #636b6f ;
+	color:rgba(255, 255, 255, 0.95);
+}

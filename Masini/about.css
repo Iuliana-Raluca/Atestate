@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background:gray;
+}
+nav{
+    background: rgb(38, 57, 96);
+    width: 100%;
+    overflow: auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    display: inline;
+}
+nav a{
+    width: 120px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    background: rgb(38, 57, 96);
+    font-size: 17px;
+    color:white;
+    padding: 20px 10px;
+    font-family: Arial;
+}
+nav a:hover{
+
+    background:skyblue;
+    color: black;
+}
+.box{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.box-img{
+    border-radius: 0%;
+    width: 180px;
+    height: 200px;
+}
+.box h1{
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-weight: 100;
+}
+.box p{
+    font-size: 20px;
+
+}
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+
+
+}
+.sci{
+    margin-left:95px;
+    margin-top: 40px;
+    display: flex;
+}
+.sci li{
+    list-style: none;
+    margin-left: 10px;
+}
+.sci li a{
+    color: rgb(38, 57, 96);
+    margin-left: 10px;
+    font-size: 2em;
+    color: #221c1c;
+}
+.sci li a:hover{
+    color:rgb(38, 57, 96);
+}
+
+    .box .button{
+        margin-top: 40px;
+    }
+    .box .button a{
+        background-color:rgb(38, 57, 96);
+        ;
+        margin-left: 13px;
+        padding: 15px 40px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        letter-spacing: 1.5px;
+    }
+    .box .button a:hover{
+        background-color:rgb(10, 20, 85);
+        color: #fff;
+    }
